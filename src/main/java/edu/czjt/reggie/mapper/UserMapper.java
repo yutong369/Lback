@@ -1,9 +1,9 @@
 package edu.czjt.reggie.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import edu.czjt.reggie.entity.Setmeal;
+import edu.czjt.reggie.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
-public interface SetmealMapper extends BaseMapper<Setmeal> {
+public interface UserMapper extends BaseMapper<User>{
 }
